@@ -9,6 +9,7 @@ plot.ROC = function(p,cutoff=0.5,filename=NA,...) {
   require(RJSONIO)
   require(ggplot2)
   require(gridSVG)
+  require(grid)
   
   # linear interpolation of x 
   interp = function(x,xvalues,yvalues) {
